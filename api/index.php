@@ -2,7 +2,7 @@
 require_once 'Bot.php';
 
 header('content-type: application/json');
-$token = $_REQUEST['6507183171:AAFY4QUEG-MC9yxDJO6uPOpIMGgdjve18vQ'] ?? null;
+$token = $_REQUEST['token'] ?? null;
 $message = $_REQUEST['message'] ?? '';
 
 $bot = new Bot();
